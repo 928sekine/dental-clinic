@@ -224,16 +224,16 @@ textarea {
  * Correct cursors for clickable elements.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   cursor: pointer;
 }
 
 button:disabled,
-[type=button]:disabled,
-[type=reset]:disabled,
-[type=submit]:disabled {
+[type="button"]:disabled,
+[type="reset"]:disabled,
+[type="submit"]:disabled {
   cursor: default;
 }
 
@@ -285,22 +285,22 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
 /**
  * Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   outline-offset: -2px; /* 1 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -316,7 +316,7 @@ textarea {
 /**
  * Fix appearance for Firefox
  */
-[type=number] {
+[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -468,7 +468,8 @@ body {
   border-radius: 100px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.c-button1::before, .c-button1::after {
+.c-button1::before,
+.c-button1::after {
   content: "";
   display: block;
   width: 0;
@@ -503,7 +504,8 @@ body {
   text-transform: uppercase;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.c-button2::before, .c-button2::after {
+.c-button2::before,
+.c-button2::after {
   content: "";
   display: block;
   width: 0;
@@ -540,7 +542,8 @@ body {
   text-transform: uppercase;
   font-family: var(--font-family-base);
 }
-.c-button--ja::before, .c-button--ja::after {
+.c-button--ja::before,
+.c-button--ja::after {
   content: "";
   display: block;
   width: 0;
@@ -571,7 +574,8 @@ body {
   font-weight: 400;
   text-align: left;
 }
-.c-base-text::before, .c-base-text::after {
+.c-base-text::before,
+.c-base-text::after {
   content: "";
   display: block;
   width: 0;
@@ -593,7 +597,8 @@ body {
   text-align: center;
   font-weight: 600;
 }
-.c-title-clinic-name--center::before, .c-title-clinic-name--center::after {
+.c-title-clinic-name--center::before,
+.c-title-clinic-name--center::after {
   content: "";
   display: block;
   width: 0;
@@ -615,7 +620,8 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 }
-.c-title-level2::before, .c-title-level2::after {
+.c-title-level2::before,
+.c-title-level2::after {
   content: "";
   display: block;
   width: 0;
@@ -641,7 +647,8 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
-.c-title-level3::before, .c-title-level3::after {
+.c-title-level3::before,
+.c-title-level3::after {
   content: "";
   display: block;
   width: 0;
@@ -670,7 +677,8 @@ body {
   font-size: 20px;
   font-weight: 400;
 }
-.c-title-level4::before, .c-title-level4::after {
+.c-title-level4::before,
+.c-title-level4::after {
   content: "";
   display: block;
   width: 0;
@@ -755,7 +763,8 @@ body {
 @media screen and (min-width: 768px) {
   .header-button {
     width: 100px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -975,7 +984,11 @@ body {
   right: 0;
   bottom: 10%;
   z-index: 2;
-  background-image: linear-gradient(45deg, rgb(242, 208, 198), rgb(232, 237, 239));
+  background-image: linear-gradient(
+    45deg,
+    rgb(242, 208, 198),
+    rgb(232, 237, 239)
+  );
   box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.3);
   padding: 10px 15px;
 }
@@ -994,7 +1007,8 @@ body {
   font-size: 24px;
   font-weight: 600;
 }
-.top-kv-copy::before, .top-kv-copy::after {
+.top-kv-copy::before,
+.top-kv-copy::after {
   content: "";
   display: block;
   width: 0;
@@ -1030,18 +1044,18 @@ body {
 }
 
 .kv-01 {
-  background-image: url(https://928sekine.github.io/img/kv-01.png);
+  background-image: url(https://928sekine.github.io/dental-clinic/img/kv-01.png);
   background-position: right 40% top 0;
   background-repeat: no-repeat;
 }
 
 .kv-02 {
-  background-image: url(https://928sekine.github.io/img/kv-02.png);
+  background-image: url(https://928sekine.github.io/dental-clinic/img/kv-02.png);
   background-position: center top;
 }
 
 .kv-03 {
-  background-image: url(https://928sekine.github.io/img/kv-03.png);
+  background-image: url(https://928sekine.github.io/dental-clinic/img/kv-03.png);
   background-position: left 30% top 0;
 }
 
@@ -1060,7 +1074,8 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
-.top-clinic-copy::before, .top-clinic-copy::after {
+.top-clinic-copy::before,
+.top-clinic-copy::after {
   content: "";
   display: block;
   width: 0;
@@ -1101,7 +1116,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.08em;
 }
-.top-clinic-list::before, .top-clinic-list::after {
+.top-clinic-list::before,
+.top-clinic-list::after {
   content: "";
   display: block;
   width: 0;
@@ -1175,7 +1191,11 @@ body {
 
 .top-reserve {
   padding: 96px 0;
-  background-image: linear-gradient(45deg, rgb(242, 208, 198), rgb(232, 237, 239));
+  background-image: linear-gradient(
+    45deg,
+    rgb(242, 208, 198),
+    rgb(232, 237, 239)
+  );
 }
 
 .top-reserve-text {
@@ -1217,7 +1237,8 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
-.top-reserve-title::before, .top-reserve-title::after {
+.top-reserve-title::before,
+.top-reserve-title::after {
   content: "";
   display: block;
   width: 0;
@@ -1300,7 +1321,8 @@ body.modal-open {
   height: 150px;
   background-color: var(--color-bg-blue);
   border-radius: 50%;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .active {
@@ -1326,7 +1348,8 @@ body.modal-open {
   margin-top: 15px;
   text-align: center;
 }
-.top-menu-text::before, .top-menu-text::after {
+.top-menu-text::before,
+.top-menu-text::after {
   content: "";
   display: block;
   width: 0;
@@ -1377,7 +1400,8 @@ body.modal-open {
   font-size: 18px;
   font-weight: 400;
 }
-.top-staff-item-post::before, .top-staff-item-post::after {
+.top-staff-item-post::before,
+.top-staff-item-post::after {
   content: "";
   display: block;
   width: 0;
@@ -1399,7 +1423,8 @@ body.modal-open {
   font-size: 20px;
   font-weight: 600;
 }
-.top-staff-item-title::before, .top-staff-item-title::after {
+.top-staff-item-title::before,
+.top-staff-item-title::after {
   content: "";
   display: block;
   width: 0;
@@ -1433,7 +1458,8 @@ body.modal-open {
   text-align: center;
   margin: 30px 0;
 }
-.top-other-staff-text::before, .top-other-staff-text::after {
+.top-other-staff-text::before,
+.top-other-staff-text::after {
   content: "";
   display: block;
   width: 0;
@@ -1524,7 +1550,8 @@ body.modal-open {
   padding: 15px;
   margin-bottom: 15px;
   cursor: pointer;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .top-news-item:last-child {
@@ -1540,7 +1567,8 @@ body.modal-open {
   margin-bottom: 15px;
   text-align: left;
 }
-.top-news-date::before, .top-news-date::after {
+.top-news-date::before,
+.top-news-date::after {
   content: "";
   display: block;
   width: 0;
@@ -1561,7 +1589,8 @@ body.modal-open {
   font-weight: 600;
   text-align: left;
 }
-.top-news-title::before, .top-news-title::after {
+.top-news-title::before,
+.top-news-title::after {
   content: "";
   display: block;
   width: 0;
@@ -1600,7 +1629,8 @@ body.modal-open {
   text-align: center;
   margin-top: 6px;
 }
-.top-reserve-text--small::before, .top-reserve-text--small::after {
+.top-reserve-text--small::before,
+.top-reserve-text--small::after {
   content: "";
   display: block;
   width: 0;
@@ -1627,7 +1657,8 @@ body.modal-open {
   font-weight: 400;
   text-align: center;
 }
-.clinic-hour-text::before, .clinic-hour-text::after {
+.clinic-hour-text::before,
+.clinic-hour-text::after {
   content: "";
   display: block;
   width: 0;
@@ -1684,7 +1715,8 @@ body.modal-open {
   font-weight: 400;
   text-align: center;
 }
-.footer-address::before, .footer-address::after,
+.footer-address::before,
+.footer-address::after,
 .footer-link::before,
 .footer-link::after {
   content: "";
@@ -1707,4 +1739,4 @@ body.modal-open {
 
 .footer-address {
   margin-bottom: 30px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
